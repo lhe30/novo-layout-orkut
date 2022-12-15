@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.conteiner {
+    max-width: 90%;
+    background-color: #D9E6F7;
+    margin: auto;
+    padding: auto;  
+}
+
+.topbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffff;
+
+}
+
+.logo {
+    width: 100px;
+    height: 39px;
+}
+
+.menu ul {
+    list-style: none;    
+    
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu .ativo {
+    color: #ed2590;
+    font-weight: 700;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #4B4B4B;    
+}
+
+.menu a:hover {
+    color: #ed2590;
+    font-weight: 700;
+}
+
+.pesquisa {
+    background-color:#EFF3F8;    
+    border-radius:15px;
+    border: none;
+    height: 40px;
+    width:300px;
+    margin: 20px;
+}
+
+#txtbusca:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.fa-sharp {
+    font-size: 16px;
+    float: left;
+    margin: 10px;
+    color: #4B4B4B;
+}
+
+#txtbusca {
+    background-color:transparent;
+    font-size:16px;
+    border: none;
+    border-radius: 15px;
+    height:40px;
+    width:200px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.usuario i{
+    color: #ed2590;
+}
+
+.usuario p{
+    font-weight: 500;
+}
+
+.foto-usuario {
+    width: 42px;
+    border-radius: 50%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 15px; 
+}
+
+.barralateral {
+    width: 325px;    
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.avatar img {
+width: 184px;
+height: 184px;
+}
+
+.nome-usuarios {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.nome-usuarios p{
+    margin-top: 0;
+}
+
+.usuarios {
+    text-align: center;
+    border-bottom: 1px solid #D9E6F7;
+    padding: 15px;
+}
+
+.denuncia-adiciona {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #D9E6F7;
+    text-align: justify;
+}
+
+.denuncia-adiciona span:hover {
+    color: #ed2590;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.inicio-perfil {
+    width: 640px;    
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;    
+}
+
+.inition {
+    cursor: pointer;
+}
+
+.per {
+    color: #ed2590;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.inicio-perfil h2{
+    color: #4B4B4B;
+}
+
+.descricao {
+    padding: 15px;
+    background-color: #EFF3F8;
+    border-radius: 10px;
+}
+
+.encp-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fan-cinza {
+    color: #4B4B4B;
+}
+
+.fan-cinza span {
+    color: #000;
+}
+
+.fa-star, .fa-face-smile {
+    color: #FACF41;
+}
+
+.fa-thumbs-up {
+    color: #26CAFF;
+}
+
+.fa-heart {
+    color: #ED2590;
+}
+
+.amigos {
+    width: 360px;  
+    height: 340px;  
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 20px;   
+    display: flex;
+    flex-direction: column; 
+}
+
+.titulos-amigos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo-amigos {
+    font-weight: 700;
+    color: #4B4B4B;
+}
+
+.ver-amigos {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ED2590;
+    cursor: pointer;
+}
+
+.lista-amigos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.amigo1 p {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
